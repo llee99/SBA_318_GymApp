@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(logger);
 
 app.use('/', (req, res) => {
-  res.send('Welcome to my Gym App');
+  res.send('Welcome to my Gym App!');
 });
 
 app.use(errorHandler);
