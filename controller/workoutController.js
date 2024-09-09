@@ -25,35 +25,11 @@ let workouts = [
     },
     {
       id: 4,
-      title: 'Callaloo',
-      category: 'Side Dish',
-      description: 'A traditional Caribbean dish made with leafy greens, often served as a side.',
-      equipment: ['Callaloo leaves', 'Coconut milk', 'Onion', 'Tomato', 'Scotch bonnet pepper', 'Garlic', 'Thyme'],
-      instructions: 'Sauté onion, tomato, scotch bonnet pepper, garlic, and thyme. Add callaloo leaves and coconut milk. Simmer until the leaves are tender. Serve as a side dish.'
-    },
-    {
-      id: 5,
-      title: 'Coconut Rice and Peas',
-      category: 'Side Dish',
-      description: 'A classic Caribbean side dish made with rice, coconut milk, and kidney beans.',
-      equipment: ['Rice', 'Coconut milk', 'Kidney beans', 'Coconut oil', 'Onion', 'Garlic', 'Thyme', 'Scotch bonnet pepper'],
-      instructions: 'Sauté onion, garlic, and thyme in coconut oil. Add rice, coconut milk, kidney beans, and scotch bonnet pepper. Cook until rice is tender. Serve hot.'
-    },
-    {
-      id: 6,
-      title: 'Plantain Chips',
-      category: 'Appetizer',
-      description: 'Crispy fried plantain slices, perfect as a snack or appetizer.',
-      equipment: ['Green plantains', 'Oil', 'Salt'],
-      instructions: 'Peel and slice green plantains thinly. Fry in hot oil until golden brown and crispy. Drain on paper towels and sprinkle with salt. Serve as a snack or appetizer.'
-    },
-    {
-      id: 7,
-      title: 'Rum Punch',
-      category: 'Beverage',
-      description: 'A tropical cocktail made with rum, fruit juices, and grenadine.',
-      equipment: ['Dark rum', 'Pineapple juice', 'Orange juice', 'Lime juice', 'Grenadine', 'Simple syrup', 'Angostura bitters'],
-      instructions: 'Mix dark rum, pineapple juice, orange juice, lime juice, grenadine, simple syrup, and a dash of angostura bitters. Serve over ice and garnish with a slice of lime or pineapple.'
+      title: 'Cable Flys',
+      category: 'Body Building',
+      description: 'Cable machine based, chest hypertrophy pull',
+      equipment: ['Cable Machine', 'Handle Grips'],
+      instructions: 'Set equivalent weight on each side, pull inwards while focusing on chest fibers, keep on leg forward and bent with a forward leaning posture.'
     }
   ];
   
@@ -114,4 +90,3 @@ let workouts = [
     updateWorkout,
     deleteWorkout
   };
-  

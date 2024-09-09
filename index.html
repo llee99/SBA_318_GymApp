@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Split Builder</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>GymSplit</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./pages/workouts.html">Workouts</a></li>
+          <li>
+            <a href="#">Categories</a>
+            <ul class="dropdown-menu">
+              <li><a href="./pages/main_course.html">Power Lifting</a></li>
+              <li><a href="./pages/side_dish.html">Body Building</a></li>
+              <li><a href="./pages/appetizer.html">Calisthenics</a></li>
+            </ul>
+          </li>
+          <li><a href="#workout-form" id="add-workout-link">Add Workout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="workout-list" id="workout-list">
+        <h2>All Workouts</h2>
+        <ul id="workout-list">
+          <!-- Workouts will be added dynamically here -->
+        </ul>
+      </section>
+
+      <section class="workout-form" id="workout-form">
+        <h2>Add New Workout</h2>
+        <form id="add-workout-form">
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title" required />
+
+          <label for="description">Description:</label>
+          <textarea id="description" name="description" required></textarea>
+
+          <label for="equipment">Equipment:</label>
+          <textarea id="equipment" name="equipment" required></textarea>
+
+          <label for="instructions">Instructions:</label>
+          <textarea id="instructions" name="instructions" required></textarea>
+
+          <label for="category">Category:</label>
+          <select id="category" name="category">
+            <option value="">Select a category</option>
+            <!-- Category options will be added dynamically here -->
+          </select>
+
+          <button type="submit">Save Workout</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 GymSplit. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
