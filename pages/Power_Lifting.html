@@ -1,33 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Power Lifting</title>
-</head>
-<body>
-    <h1>Power Lifting</h1>
-    <ul>
-        <li>
-            <h2>Squat</h2>
-            <p>Compound leg and lower back lift</p>
-            <p>Equipment: Straight Barbell, Squat Rack, Weights (optional)</p>
-            <p>Instructions: Stretch, Warm-Up, Load Weight (optional), Position traps under the bar, Un-rack the bar, take 3 steps back (medium, large, small), Squat</p>
-        </li>
-        <li>
-            <h2>Bench Press</h2>
-            <p>Compound chest lift</p>
-            <p>Equipment: Straight Barbell, Bench Rack, Weights (optional)</p>
-            <p>Instructions: Stretch, Warm-Up, Load Weight (optional), Grip bar shoulder length apart, Un-rack the bar, Bench</p>
-        </li>
-        <li>
-            <h2>Dead Lift</h2>
-            <p>Compound total body lift</p>
-            <p>Equipment: Straight Barbell, Platform (optional), Weights (optional)</p>
-            <p>Instructions: Stretch, Warm-Up, Load Weight (optional), Squat into pocket, Grip bar shoulder length apart, Pull</p>
-        </li>
-    </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Split Builder</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>GymSplit</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./workouts.html">Workouts</a></li>
+          <li>
+            <a href="#">Categories</a>
+            <ul class="dropdown-menu">
+              <li><a href="./pages/main_course.html">Power Lifting</a></li>
+              <li><a href="./pages/side_dish.html">Body Building</a></li>
+              <li><a href="./pages/appetizer.html">Calisthenics</a></li>
+            </ul>
+          </li>
+          <li><a href="#workout-form" id="add-workout-link">Add Workout</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <a href="../index.html">Back to Home</a>
-</body>
+    <main>
+        <h1>Power Lifting</h1>
+        <ul>
+            <li>
+                <h2>Squat</h2>
+                <h3>Compound leg and lower back lift</h3>
+                <p>Equipment: Straight Barbell, Squat Rack, Weights (optional)</p>
+                <p>Instructions: Stretch, Warm-Up, Load Weight (optional), Position traps under the bar, Un-rack the bar, take 3 steps back (medium, large, small), Squat</p>
+            </li>
+            <li>
+                <h2>Bench Press</h2>
+                <h3>Compound chest lift</h3>
+                <p>Equipment: Straight Barbell, Bench Rack, Weights (optional)</p>
+                <p>Instructions: Stretch, Warm-Up, Load Weight (optional), Grip bar shoulder length apart, Un-rack the bar, Bench</p>
+            </li>
+            <li>
+                <h2>Dead Lift</h2>
+                <h3>Compound total body lift</h3>
+                <p>Equipment: Straight Barbell, Platform (optional), Weights (optional)</p>
+                <p>Instructions: Stretch, Warm-Up, Load Weight (optional), Squat into pocket, Grip bar shoulder length apart, Pull</p>
+            </li>
+        </ul>
+    
+        <a href="../index.html">Back to Home</a>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 GymSplit. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
 </html>

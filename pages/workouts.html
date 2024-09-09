@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>All Workouts</h1>
-    <div id="api-data"></div>
-    <script src="workouts.js"></script>
-    <!-- <script>
-        let data = fetch(`http://localhost:3500/workouts/`).then(resp => resp.json());
-        let list =
-            document.getElementById("myList");
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Split Builder</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>GymSplit</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./workouts.html">Workouts</a></li>
+          <li>
+            <a href="#">Categories</a>
+            <ul class="dropdown-menu">
+              <li><a href="../pages/Power_Lifting.html">Power Lifting</a></li>
+              <li><a href="./pages/side_dish.html">Body Building</a></li>
+              <li><a href="./pages/appetizer.html">Calisthenics</a></li>
+            </ul>
+          </li>
+          <li><a href="#workout-form" id="add-workout-link">Add Workout</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        data.forEach((item) => {
-            let li =
-                document.createElement("li");
-            li.innerText = item;
-            list.appendChild(li);
-        });
-    </script> -->
-</body>
+    <main>
+        <h1>All Workouts</h1>
+        <div id="api-data"></div>
+        <script src="./workouts.js"></script>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 GymSplit. All rights reserved.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
